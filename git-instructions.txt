@@ -1,0 +1,53 @@
+pwd - show the current dir/folder route (eg. /c/Users/Jorda/Desktop/proyecto)
+ls - show all files from the current dir/folder in git (LS)
+git config --list (see all settings)
+
+git config --global user.name ""   (set username) - This identify the person who makes changes on the program
+git config --global user.email "" (set user email) - This identify the email for the person 
+                                                     who makes changes on the program
+
+GIT STATUS ---> Working Area (dir/folder) ---> staging Area --- > Reposository
+
+
+git init [enter]  (Initiate Working Area with git)
+git status [enter](show all the files from dir/folder on which we're working on, but they're still untracked)
+git add fileNameHere [enter] (this is to add the file on the track list ONE BY ONE for them to be monitored)
+git add . [enter] (Add all the modified files on my working dir/folder)
+git commit [enter] (make the 1st screenshot or version of our program. We are redirected to the code editor to add the name of it)
+git commit -m "Screenshot name here" [enter] (If we add -m to "git commit" entry, we avoid the editor)
+git log [enter] (see all commits we have created so far)
+
+    Example of 1st commit:
+
+    commit e61e7162fe5a8aaae6a54bb5bcb8e0c9762c6330 (HEAD -> master)
+    Author: Dexuz <jordalycastillo@gmail.com>
+    Date:   Mon Feb 10 19:30:00 2020 -0400
+
+git restore filename [enter] (restore a file to its initial data)
+git checkout -- filename [enter] (restore a file to its initial data)
+git diff [enter] (see all difference from the files)
+
+-If we want to ignore any dir/folder or files from our program, we can create a file called ".gitignore",
+ and inside it we can write the filenames and folder to be ignored.
+
+git branch [enter] (show all the branch/root where our project is located)
+git branch filename [enter] (create a new branch/root for my project - This is like an alternative of it)
+git checkout filename [enter] (change or switch to another exisitng branch)
+git clone https://github.com/Dexuz/git-course-test.git  (download project from mmy repo)
+
+git remote add origin https://github.com/Dexuz/JavaScript-Course.git (connect my local files with my remote github)
+git push -u origin master[enter] (upload my files into the my repo)
+
+[INVESTIGATE THE FOLLOWING ENTRIES, WHAT THEY ARE FOR AND WHAT THEY DO EXACTLY DO]
+git pull origin master [enter] (upload my files into the my repo)
+git stash save "The title of my stash right here" [enter] (save local changes in my project)
+
+
+
+
+
+
+
+
+
+
